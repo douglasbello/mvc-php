@@ -1,0 +1,27 @@
+{
+  "name": "douglasbello/phptips",
+  "description": "Descrição",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Douglas",
+      "email": "douglasbelloalv1@outlook.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.2"
+  }
+}
